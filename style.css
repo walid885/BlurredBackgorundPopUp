@@ -10,6 +10,7 @@ body{
     background: url("https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=764&q=80");
     text-align: center;
     background-size: cover;
+    transition: all .7s;
 
 }
 h1{
@@ -50,6 +51,8 @@ h1{
     background-size: cover;
     border-radius: 10px;
     box-shadow: 0 4px 8px tgba(0,0,0.3);
+    opacity: 1;
+    transition: all .7s;
 
 }
 h4{
@@ -90,4 +93,6 @@ input::placeholder{
 }
 .active.popupCont{
     visibility: hidden;
+    opacity: 0;
+    top: 10%;
 }
